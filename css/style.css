@@ -26,14 +26,18 @@ a:hover {
 /*Typography*/
 .heroContainer h1 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 6rem;
 =======
   font-size: 6em;
 >>>>>>> Changed BG back
+=======
+  font-size: 100px;
+>>>>>>> parent of 8c90616... Responsive fronter
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: #fafafa;
-  position: relative;
+  position: absolute;
   text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
 }
 .aboutModule h1 {
@@ -70,7 +74,7 @@ a:hover {
   position: relative;
   top: 20%;
   margin: auto;
-  line-height: 7.5rem;
+  line-height: 7.5em;
   z-index: 5;
 }
 .aboutContainer {
