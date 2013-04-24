@@ -1,89 +1,57 @@
-.shadow {
-  text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
-}
-@media (max-width: 1440px) {
-  .heroContainer h1 {
-    font-size: 4.7rem;
-    font-weight: 700;
-    text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+@media only screen and (max-width: 1440px) {
+  body {
+    font-size: 110%;
   }
   .heroText {
     top: 10%;
-    line-height: 7.5rem;
   }
 }
-@media (max-width: 1280px) {
-  .heroContainer h1 {
-    font-size: 4.2rem;
-    font-weight: 700;
-    text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+@media only screen and (max-width: 1280px) {
+  body {
+    font-size: 100%;
   }
   .heroText {
     top: 8%;
-    line-height: 6.5rem;
   }
 }
-@media (max-width: 960px) {
-  .heroContainer h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    position: absolute;
-    text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+@media only screen and (max-width: 1100px) {
+  body {
+    font-size: 90%;
+  }
+  .heroText {
+    top: 7%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: 80%;
   }
   .heroText {
     top: 6.5%;
-    line-height: 5.5rem;
   }
 }
-@media (max-width: 640px) {
-  .heroContainer h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    position: absolute;
-    text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 60%;
   }
   .heroText {
     top: 6%;
-    line-height: 5rem;
   }
 }
-@media (max-width: 480px) {
-  .heroContainer h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    position: absolute;
-    text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 50%;
   }
   .heroText {
     top: 6%;
-    line-height: 3.5rem;
   }
 }
-/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .selector-01 {
-    margin: 10px;
-  }
-  .selector-02 {
-    margin: 10px;
-  }
-  .selector-03 {
-    margin: 10px;
-  }
-}
-/* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-  .shadow {
-    text-shadow: 3px 3px rgba(69, 66, 66, 0.35);
-  }
-  .heroContainer h1 {
-    font-size: 6rem;
-    font-weight: 700;
-    position: absolute;
-    text-shadow: 3px 3px rgba(69, 66, 66, 0.35);
-  }
+  /*body { font-size:115%;} */
   .heroText {
-    top: 2%;
-    line-height: 7.7rem;
+    top: 2.5%;
   }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
 }
