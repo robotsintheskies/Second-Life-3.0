@@ -1,22 +1,71 @@
+/*LESS variables*/
+.moduleDimensions {
+  height: 200px;
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #fafafa;
+}
+.moduleHeader {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px 0px 20px 15px;
+  border-bottom: 3px solid rgba(40, 40, 40, 0.35);
+}
 .shadow {
   text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
 }
-.heroContainer {
-  background-color: #ea3f3f;
-  height: 100%;
-  width: 100%;
-  float: left;
+/*Global rules*/
+a {
+  color: #ea3f3f;
 }
+a:hover {
+  color: #b23d3d;
+}
+/*Typography*/
 .heroContainer h1 {
+<<<<<<< HEAD
   font-size: 6rem;
+=======
+  font-size: 6em;
+>>>>>>> Changed BG back
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: #fafafa;
   position: relative;
   text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
 }
+.aboutModule h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px 0px 20px 15px;
+  border-bottom: 3px solid rgba(40, 40, 40, 0.35);
+}
+.aboutModule ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  line-height: 2em;
+}
+.aboutModule ul li em {
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 15px;
+}
+.aboutModule ul {
+  padding: 20px 0px 20px 15px;
+}
+/*Container divs*/
+.heroContainer {
+  background-color: #ea3f3f;
+  height: 100%;
+  width: 100%;
+  float: left;
+  border-bottom: 7.5px solid rgba(69, 66, 66, 0.35);
+}
 .heroText {
-  height: 80%;
+  height: 500px;
   width: 80%;
   position: relative;
   top: 20%;
@@ -29,4 +78,18 @@
   width: 100%;
   background-color: #454242;
   float: left;
+  border-top: 7.5px solid rgba(40, 40, 40, 0.35);
+}
+.aboutModule {
+  height: 200px;
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #fafafa;
+}
+.aboutText {
+  height: 500px;
+  width: 400px;
+  background-color: rgba(40, 40, 40, 0.35);
+  position: relative;
 }
