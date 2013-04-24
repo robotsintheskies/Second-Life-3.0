@@ -1,1 +1,1 @@
-$(document).ready(function(){var e=!1,t=!1;$(".heroContainer").mousemove(function(){t=setTimeOut(function(){$(".heroText").fadeOut(200)},200);clearTimeout(e);e=setTimeout(function(){$(".heroText").fadeIn(200)},1e3)})});
+$(document).ready(function(){var e=!1,t=!1;$(".heroText").mousemove(function(){clearTimeout(t);t=setTimeout(function(){$(".heroText").fadeOut(200)},15);clearTimeout(e);e=setTimeout(function(){$(".heroText").fadeIn(200)},1e3)})});
