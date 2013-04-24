@@ -82,10 +82,13 @@ a:hover {
   margin-left: 10%;
   margin-top: 5%;
   color: #fafafa;
+  float: left;
 }
 .aboutText {
   height: 500px;
   width: 400px;
   background-color: rgba(40, 40, 40, 0.35);
+  float: right;
   position: relative;
+  margin-right: 5%;
 }
