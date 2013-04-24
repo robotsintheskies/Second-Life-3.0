@@ -29,7 +29,7 @@ a:hover {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: #fafafa;
-  position: absolute;
+  position: relative;
   text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
 }
 .aboutModule h1 {
