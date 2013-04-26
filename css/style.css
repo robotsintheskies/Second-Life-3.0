@@ -1,20 +1,6 @@
 /*LESS variables*/
-.moduleDimensions {
-  height: 200px;
-  width: 250px;
-  margin-left: 10%;
-  margin-top: 5%;
-  color: #fafafa;
-}
-.moduleHeader {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  padding: 20px 0px 20px 15px;
-  border-bottom: 3px solid rgba(40, 40, 40, 0.35);
-}
 .shadow {
-  text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+  text-shadow: 7.5px 7.5px rgba(40, 40, 40, 0.2);
 }
 /*Global rules*/
 a {
@@ -23,24 +9,25 @@ a {
 a:hover {
   color: #b23d3d;
 }
+body {
+  color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
 /*Typography*/
 .heroContainer h1 {
   font-size: 6rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-  color: #fafafa;
   position: absolute;
-  text-shadow: 7.5px 7.5px rgba(69, 66, 66, 0.35);
+  text-shadow: 7.5px 7.5px rgba(40, 40, 40, 0.2);
 }
 .aboutModule h1 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 36px;
   padding: 20px 0px 20px 15px;
-  border-bottom: 3px solid rgba(40, 40, 40, 0.35);
+  border-bottom: 3px solid rgba(40, 40, 40, 0.2);
+  text-shadow: 5px 5px rgba(40, 40, 40, 0.2);
 }
 .aboutModule ul li {
-  font-family: 'Montserrat', sans-serif;
   font-size: 21px;
   line-height: 2em;
 }
@@ -52,13 +39,18 @@ a:hover {
 .aboutModule ul {
   padding: 20px 0px 20px 15px;
 }
+.aboutText p {
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 2em;
+}
 /*Container divs*/
 .heroContainer {
   background-color: #ea3f3f;
   height: 100%;
   width: 100%;
   float: left;
-  border-bottom: 7.5px solid rgba(69, 66, 66, 0.35);
+  border-bottom: 7.5px solid rgba(40, 40, 40, 0.2);
 }
 .heroText {
   height: 500px;
@@ -74,21 +66,28 @@ a:hover {
   width: 100%;
   background-color: #454242;
   float: left;
-  border-top: 7.5px solid rgba(40, 40, 40, 0.35);
+  border-top: 7.5px solid rgba(40, 40, 40, 0.2);
+}
+.moduleWrapper {
+  margin-left: 10%;
 }
 .aboutModule {
   height: 200px;
   width: 250px;
-  margin-left: 10%;
   margin-top: 5%;
-  color: #fafafa;
   float: left;
 }
-.aboutText {
-  height: 500px;
-  width: 400px;
-  background-color: rgba(40, 40, 40, 0.35);
-  float: right;
-  position: relative;
+#hours {
   margin-right: 5%;
+}
+.aboutText {
+  min-height: 400px;
+  width: 550px;
+  padding: 50px;
+  background-color: rgba(40, 40, 40, 0.2);
+  float: left;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 3%;
 }

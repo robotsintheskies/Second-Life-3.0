@@ -3,30 +3,12 @@
 @mainGrey: #454242;
 @mainWhite: #fafafa;
 @heroShadow: rgba(69,66,66,0.35);
-@greyShadow: rgba(40,40,40,0.35);
+@greyShadow: rgba(40,40,40,0.2);
 @Montserrat: 'Montserrat', sans-serif;
 @ContainerShadows: 7.5px solid;
 
-.moduleDimensions{
-	height:200px;
-	width:250px;
-	margin-left:10%;
-	margin-top:5%;
-	color:@mainWhite;
-}
-
-.moduleHeader{
-	font-family:@Montserrat;
-	font-weight:700;
-	font-size:36px;
-	padding:20px 0px 20px 15px;
-	border-bottom:3px solid @greyShadow;
-}
-
-
-
 .shadow{
-	text-shadow:7.5px 7.5px @heroShadow;
+	text-shadow:7.5px 7.5px @greyShadow;
 }
 
 /*Global rules*/
@@ -39,22 +21,30 @@ a:hover{
 	color:rgb(178,61,61);
 }
 
+body{
+	color:@mainWhite;
+	font-family:@Montserrat;
+
+}
+
 /*Typography*/
 .heroContainer h1{
 	font-size:6rem;
 	font-weight:700;
-	font-family:@Montserrat;
-	color:@mainWhite;
 	position:absolute;
-	.shadow
+	.shadow;
 }
 
 .aboutModule h1{
-	.moduleHeader;
+	font-weight:700;
+	font-size:36px;
+	padding:20px 0px 20px 15px;
+	border-bottom:3px solid @greyShadow;
+	text-shadow:5px 5px @greyShadow;
+
 }
 
 .aboutModule ul li{
-	font-family:@Montserrat;
 	font-size:21px;
 	line-height:2em;
 }
@@ -69,13 +59,19 @@ a:hover{
 	padding:20px 0px 20px 15px;
 }
 
+.aboutText p{
+	font-size:21px;
+	font-weight:normal;
+	line-height:2em;
+}
+
 /*Container divs*/
 .heroContainer{
 	background-color:@mainRed;
 	height:100%; 
 	width:100%;
 	float:left;
-	border-bottom:@ContainerShadows @heroShadow;
+	border-bottom:@ContainerShadows @greyShadow;
 }
 
 
@@ -98,19 +94,33 @@ a:hover{
 
 }
 
-.aboutModule {
-	.moduleDimensions;
-	float:left;
 
+.moduleWrapper{
+	margin-left:10%;
+}
+
+.aboutModule {
+	height:200px;
+	width:250px;
+	margin-top:5%;
+	float:left;
+}
+
+#hours{
+	margin-right:5%;
 }
 
 .aboutText{
-	height:500px;
-	width:400px;
+	min-height:400px;
+	width:550px;
+	padding:50px;
 	background-color:@greyShadow;
-	float:right;
+	float:left;
 	position:relative;
-	margin-right:5%;
+	margin-top:5%;
+	margin-left:5%;
+	border-radius:3%;
+
 
 }
 
