@@ -1,31 +1,38 @@
 /*LESS variables*/
-body {
-  font-size: 100%;
-}
-h1 {
-  font-size: 5em;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.2em;
+.box-sizing {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
 }
 .shadow {
   text-shadow: 7.5px 7.5px rgba(40, 40, 40, 0.2);
 }
 /*Global rules*/
+body {
+  font-size: 100%;
+  color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 7em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2em;
+}
 a {
   color: #ea3f3f;
 }
 a:hover {
   color: #b23d3d;
 }
-body {
-  color: #fafafa;
-  font-family: 'Montserrat', sans-serif;
-}
 /*Typography*/
 .heroContainer h1 {
-  font-size: 6rem;
-  font-weight: 700;
   color: #fafafa;
   position: absolute;
   text-shadow: 7.5px 7.5px rgba(40, 40, 40, 0.2);
@@ -72,32 +79,53 @@ body {
   z-index: 5;
 }
 .aboutContainer {
-  height: 100%;
+  margin: 0px auto 0;
+  z-index: 200;
+  padding-top: 40px;
   width: 100%;
+  height: 100%;
   background-color: #454242;
   float: left;
   border-top: 7.5px solid rgba(40, 40, 40, 0.2);
 }
 .moduleWrapper {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 .aboutModule {
+  margin-bottom: 50px;
   height: 200px;
-  width: 250px;
-  margin-top: 5%;
+  width: 30%;
   float: left;
-}
-#hours {
-  margin-right: 5%;
+  border: 10px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
 }
 .aboutText {
-  min-height: 400px;
-  width: 550px;
-  padding: 50px;
+  width: 40%;
+  height: 400px;
+  overflow: hidden;
   background-color: rgba(40, 40, 40, 0.2);
   float: left;
   position: relative;
-  margin-top: 5%;
-  margin-left: 5%;
   border-radius: 3%;
+  border: 30px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+
 }

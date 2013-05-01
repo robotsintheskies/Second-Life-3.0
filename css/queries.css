@@ -1,49 +1,96 @@
-@media only screen and (max-width: 1440px) {
-  body {
-    font-size: 110%;
-  }
-  .heroText {
-    top: 10%;
-  }
-}
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1440px) {
   body {
     font-size: 100%;
   }
   .heroText {
-    top: 8%;
+    top: 10%;
+  }
+  .moduleWrapper {
+    width: 60%;
   }
 }
-@media only screen and (max-width: 1100px) {
-  body {
-    font-size: 90%;
-  }
-  .heroText {
-    top: 7%;
-  }
-}
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1440px) {
   body {
     font-size: 80%;
   }
   .heroText {
-    top: 6.5%;
+    top: 10%;
+  }
+  .moduleWrapper {
+    width: 80%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1280px) {
+  body {
+    font-size: 70%;
+  }
+  .heroText {
+    top: 8%;
+  }
+  .moduleWrapper {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  body {
+    font-size: 70%;
+  }
+  .heroText {
+    top: 7%;
+  }
+  .moduleWrapper {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 960px) {
   body {
     font-size: 60%;
   }
   .heroText {
-    top: 6%;
+    top: 6.5%;
+  }
+  .aboutModule {
+    width: 50%;
+  }
+  .aboutText {
+    width: 100%;
+  }
+  .moduleWrapper {
+    width: 80%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   body {
     font-size: 50%;
   }
   .heroText {
     top: 6%;
+  }
+  .aboutModule {
+    width: 100%;
+  }
+  .aboutText {
+    width: 100%;
+  }
+  .moduleWrapper {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 30%;
+  }
+  .heroText {
+    top: 6%;
+  }
+  .aboutModule {
+    width: 100%;
+  }
+  .aboutText {
+    width: 100%;
+  }
+  .moduleWrapper {
+    width: 80%;
   }
 }
 @media only screen and (max-device-width: 480px) {
@@ -52,6 +99,15 @@
   }
   .heroText {
     top: 2.5%;
+  }
+  .aboutModule {
+    width: 100%;
+  }
+  .aboutText {
+    width: 100%;
+  }
+  .moduleWrapper {
+    width: 80%;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
